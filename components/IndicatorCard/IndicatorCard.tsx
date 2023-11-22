@@ -24,8 +24,8 @@ export function IndicatorCard({ Title, Description, UpdatedOn, Indicator }: { Ti
         color="blue"
         fullWidth
         radius="md"
-        href="/indicator/[indicator]"
-        as={`/indicator/${Indicator}`}>
+        href="/indicators/[indicator]"
+        as={`/indicators/${Indicator}`}>
         Open
       </Button>
     </Card>
