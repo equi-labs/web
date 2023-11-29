@@ -25,6 +25,7 @@ export default function Welcome() {
                             placeholder="Search for an Indicator"
                             data={['Golden Line', 'YouTube Subs', 'YouTube Views']}
                             limit={4}
+                            
                         />
 
                     </div>

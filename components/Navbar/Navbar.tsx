@@ -1,7 +1,7 @@
-import { Title, Group, Burger, Container } from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
+import { Title, Group, Button, Container } from '@mantine/core';
 import classes from './Navbar.module.css';
 import { ColorSchemeToggle } from '../ColorSchemeToggle/ColorSchemeToggle';
+import Link from 'next/link';
 
 const links = [
     { link: '/about', label: 'About' },
@@ -10,14 +10,16 @@ const links = [
 export function Navbar() {
     const items = links.map((link) => {
         return (
+
             <a
                 key={link.label}
                 href={link.link}
                 className={classes.link}
-                onClick={(event) => event.preventDefault()}
             >
                 {link.label}
             </a>
+
+
         );
     });
 
@@ -25,8 +27,13 @@ export function Navbar() {
         <header className={classes.header}>
             <Container size="lg">
                 <div className={classes.inner}>
-                    {/* <MantineLogo size={28} /> */}
-                    <Title order={2}>Labs</Title>
+                    <Title order={2}>
+                        <Link
+                            color="blue"
+                            href="/">
+                            Logo
+                        </Link>
+                    </Title>
                     <Group gap={5}>
                         {items}
                         <ColorSchemeToggle />
