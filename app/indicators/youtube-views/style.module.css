@@ -1,0 +1,16 @@
+.root{
+    min-height: 80vh;
+    padding-top: rem(80px);
+    padding-bottom: rem(80px);
+}
+
+.title {
+    font-family: Greycliff CF, var(--mantine-font-family);
+    text-align: center;
+    font-weight: 900;
+    font-size: rem(38px);
+  
+    @media (max-width: $mantine-breakpoint-sm) {
+      font-size: rem(32px);
+    }
+  }

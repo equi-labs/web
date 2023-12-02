@@ -6,7 +6,7 @@ import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 import { theme } from "../theme";
 import { Navbar } from "../components/Navbar/Navbar";
 import { Footer } from "../components/Footer/Footer";
-import classes from "./layout.module.css"
+import classes from "./style.module.css"
 
 export default function RootLayout({ children }: { children: any }) {
   return (

@@ -1,7 +1,10 @@
 'use client'
 
-import { Container, Title } from "@mantine/core"
+import { Button, Container, Group, Title } from "@mantine/core"
+
 import classes from './style.module.css'
+import Link from "next/link";
+
 
 export default function Page() {
     return (
