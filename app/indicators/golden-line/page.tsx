@@ -33,46 +33,31 @@ export default function Page() {
 
             <Tabs.Panel value="description">
                 <Text px='sm' mt='xl' ta='justify' fw={500} >
-                    Applying an indicator on your favourite coin is straightforward and intuitive.
-                    For instance, if you like Bitcoin, you can look into its chart permanently
-                    and never bother with other assets; that's fair enough. But what about the
-                    rest of the market? Another coin in the crypto ocean might be soaring with
-                    a potential of 100X. Would you excuse yourself for missing the next Matic or Dogecoin?
+                    {"Applying an indicator on your favourite coin is straightforward and intuitive. For instance, if you like Bitcoin, you can look into its chart permanently and never bother with other assets; that's fair enough. But what about the rest of the market? Another coin in the crypto ocean might be soaring with a potential of 100X. Would you excuse yourself for missing the next Matic or Dogecoin?"}
                 </Text>
 
                 <Text px='sm' mt='xl' ta='justify' fw={500} >
-                    Operating on weekly candle sticks, Equilibrium Labs fetches data directly from
-                    the renowned Binance exchange for well-established trading pairs. Afterwards,
-                    it applies the "Golden Line" indicator, allowing you to identify trends across
-                    the whole market, discover new assets and make informed trading decisions.
+                    {"Operating on weekly candle sticks, Equilibrium Labs fetches data directly from the renowned Binance exchange for well-established trading pairs. Afterwards, it applies the 'Golden Line' indicator, allowing you to identify trends across the whole market, discover new assets and make informed trading decisions."}
                 </Text>
 
                 <Text px='sm' mt='xl' ta='justify' fw={500} >
-                    This dashboard shows whether a crypto coin is bullish, bearish, or in the grey zone.
-                    Furthermore, the dashboard offers essential information, such as the chart age,
-                    asset price, and volume regarding the latest week's candle close.
+                    {"This dashboard shows whether a crypto coin is bullish, bearish, or in the grey zone. Furthermore, the dashboard offers essential information, such as the chart age, asset price, and volume regarding the latest week's candle close."}
                 </Text>
 
                 <Text px='sm' mt='xl' ta='justify' fw={500} >
-                    Note that this indicator is modified to present trading pairs with a chart age
-                    over two years. This constraint was applied to assume mature projects,
-                    minimizing the risk of being scammed.
+                    {"Note that this indicator is modified to present trading pairs with a chart age over two years. This constraint was applied to assume mature projects, minimizing the risk of being scammed."}
                 </Text>
 
-                <Title  px='sm' mt='xl'  order={3}> How To</Title>
+                <Title px='sm' mt='xl' order={3}> How To</Title>
 
                 <Text px='sm' mt='md' ta='justify' fw={500} >
-                    For optimal use of this tool, it is recommended to include the following Pine Script
-                    to your Trading View Account. Note that if you open this app from a mobile device,
-                    you might not see all the data, or the redirection button won't work properly.
-                    Use a laptop's web browser for the full experience.
+                    {"For optimal use of this tool, it is recommended to include the following Pine Script to your Trading View Account. Note that if you open this app from a mobile device, you might not see all the data, or the redirection button won't work properly. Use a laptop's web browser for the full experience."}
                 </Text>
 
                 <Code px='sm' mt='xl' block>{code}</Code>
 
                 <Text px='sm' mt='xl' ta='justify' fw={500} >
-                    You are ready to go 🙂. Use the search bar on the top of your screen to find your
-                    favourite coin, or apply any of the provided filters to check bullish or bearish coins.
+                    {"You are ready to go 🙂. Use the search bar on the top of your screen to find your favourite coin, or apply any of the provided filters to check bullish or bearish coins."}
                 </Text>
 
             </Tabs.Panel>

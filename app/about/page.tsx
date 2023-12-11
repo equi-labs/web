@@ -15,20 +15,14 @@ export default function Page() {
                 <Title order={2} mt={30}>What is Equilibrium Labs?</Title>
 
                 <Blockquote color="blue" icon={<IconBulbFilled />} radius='lg' mt="xl">
-                    Introducing Equilibrium, a comprehensive trend analysis tool for the cryptocurrency long-term investor.
-                    The application combines cutting-edge technology with a well-known trading indicator
-                    (let's call it "Golden Line" ... read the full story here) to provide valuable insights on buy and sell
-                    opportunities in the ever-evolving cryptocurrency market.
+                    {"Introducing Equilibrium, a comprehensive trend analysis tool for the cryptocurrency long-term investor. The application combines cutting-edge technology with a well-known trading indicator (let's call it 'Golden Line' ... read the full story here) to provide valuable insights on buy and sell opportunities in the ever-evolving cryptocurrency market."}
                 </Blockquote>
 
 
                 <Title order={2} mt={30}>Our Mission and Values</Title>
 
                 <Blockquote color="blue" icon={<IconBulbFilled />} radius='lg' mt="xl">
-                    Introducing Equilibrium, a comprehensive trend analysis tool for the cryptocurrency long-term investor.
-                    The application combines cutting-edge technology with a well-known trading indicator
-                    (let's call it "Golden Line" ... read the full story here) to provide valuable insights on buy and sell
-                    opportunities in the ever-evolving cryptocurrency market.
+                    {"Introducing Equilibrium, a comprehensive trend analysis tool for the cryptocurrency long-term investor. The application combines cutting-edge technology with a well-known trading indicator (let's call it 'Golden Line' ... read the full story here) to provide valuable insights on buy and sell opportunities in the ever-evolving cryptocurrency market."}
                 </Blockquote>
 
                 <Title order={2} mt={30}>Contact</Title>
