@@ -149,6 +149,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mantine/code-highlight@npm:^7.3.1":
+  version: 7.3.1
+  resolution: "@mantine/code-highlight@npm:7.3.1"
+  dependencies:
+    clsx: "npm:2.0.0"
+    highlight.js: "npm:^11.9.0"
+  peerDependencies:
+    "@mantine/core": 7.3.1
+    "@mantine/hooks": 7.3.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: ca91205526d1ca0b06c0f19052d99c658a7e520bb93899e0629405ae14acd5bca1090f2d6a9744f0bea9915a7a19046956e3cea62952673dc80a8d41036e3016
+  languageName: node
+  linkType: hard
+
 "@mantine/core@npm:7.2.2":
   version: 7.2.2
   resolution: "@mantine/core@npm:7.2.2"
@@ -164,6 +179,22 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
   checksum: dc71d65dca0b4517eb75c053a51570bf5f6511b68e0c65631379878b575839719a7b5610c61d5bf5f268796c43123b4b627cce075f814ffc26f97153b43fd53e
+  languageName: node
+  linkType: hard
+
+"@mantine/ds@npm:^7.2.2":
+  version: 7.2.2
+  resolution: "@mantine/ds@npm:7.2.2"
+  dependencies:
+    clsx: "npm:2.0.0"
+  peerDependencies:
+    "@mantine/code-highlight": 7.2.2
+    "@mantine/core": 7.2.2
+    "@mantine/hooks": 7.2.2
+    "@tabler/icons-react": ^2.29.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: f8730b2d4417859ce01e5c6787bf06793f78b2f04e5df612196ac2933155474eb0bb39acb18daaa4e74f94e51a0a80ee0d0e44e0c911f3b744d2fa95e054fca6
   languageName: node
   linkType: hard
 
@@ -309,6 +340,25 @@ __metadata:
   dependencies:
     tslib: "npm:^2.4.0"
   checksum: b6fa49bcf6c00571d0eb7837b163f8609960d4d77538160585e27ed167361e9776bd6e5eb9646ffac2fb4d43c58df9ca50dab9d96ab097e6591bc82a75fd1164
+  languageName: node
+  linkType: hard
+
+"@tabler/icons-react@npm:^2.44.0":
+  version: 2.44.0
+  resolution: "@tabler/icons-react@npm:2.44.0"
+  dependencies:
+    "@tabler/icons": "npm:2.44.0"
+    prop-types: "npm:^15.7.2"
+  peerDependencies:
+    react: ^16.5.1 || ^17.0.0 || ^18.0.0
+  checksum: 92c755b6e57c46b8b7832fc5557057b3f84985d1069f028a8fa0e92c2e99d7b9adb682f0bf5d07b2d49e97ad3677439c109a254025527b83d5fc96d9a05dba1f
+  languageName: node
+  linkType: hard
+
+"@tabler/icons@npm:2.44.0":
+  version: 2.44.0
+  resolution: "@tabler/icons@npm:2.44.0"
+  checksum: 42d069a355b66af5a749aa68db149297778f582511b95b3d2bf70902e9e1c3f7e0977791378359bcbb04e39af582d2b7a270932531eb832accfd2f8fda0e7d72
   languageName: node
   linkType: hard
 
@@ -757,9 +807,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001406":
-  version: 1.0.30001458
-  resolution: "caniuse-lite@npm:1.0.30001458"
-  checksum: 92ddb0819736d5d2e0efcbb0a729c172ddebc409c4fc39f2a8a8b5e0083fed795cf3efbaec299215298979d4f88da94e6be0ad2f1988cb25ec9be0772c29d0af
+  version: 1.0.30001568
+  resolution: "caniuse-lite@npm:1.0.30001568"
+  checksum: 13f01e5a2481134bd61cf565ce9fecbd8e107902927a0dcf534230a92191a81f1715792170f5f39719c767c3a96aa6df9917a8d5601f15bbd5e4041a8cfecc99
   languageName: node
   linkType: hard
 
@@ -1858,6 +1908,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"highlight.js@npm:^11.9.0":
+  version: 11.9.0
+  resolution: "highlight.js@npm:11.9.0"
+  checksum: 27cfa8717dc9d200aecbdb383eb122d5f45ce715d2f468583785d36fbfe5076ce033abb02486dc13b407171721cda6f474ed3f3a5a8e8c3d91367fa5f51ee374
+  languageName: node
+  linkType: hard
+
 "ignore@npm:^5.2.0":
   version: 5.2.0
   resolution: "ignore@npm:5.2.0"
@@ -2369,8 +2426,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "mantine-minimal-next-template@workspace:."
   dependencies:
+    "@mantine/code-highlight": "npm:^7.3.1"
     "@mantine/core": "npm:7.2.2"
+    "@mantine/ds": "npm:^7.2.2"
     "@mantine/hooks": "npm:7.2.2"
+    "@tabler/icons-react": "npm:^2.44.0"
     "@types/node": "npm:20.8.10"
     "@types/react": "npm:18.2.36"
     "@types/react-dom": "npm:18.2.14"
