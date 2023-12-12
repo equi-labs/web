@@ -4,7 +4,7 @@ import { ColorSchemeToggle } from '../ColorSchemeToggle/ColorSchemeToggle';
 import Link from 'next/link';
 
 const links = [
-    { link: '/about', label: 'About' },
+    { link: '${basePath}/about', label: 'About' },
 ];
 
 export function Navbar() {
