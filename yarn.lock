@@ -3741,6 +3741,7 @@ __metadata:
     postcss-preset-mantine: "npm:1.11.0"
     postcss-simple-vars: "npm:^7.0.1"
     react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
     react-plotly.js: "npm:^2.6.0"
     typescript: "npm:5.2.2"
   languageName: unknown
@@ -4548,6 +4549,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-dom@npm:18.2.0":
+  version: 18.2.0
+  resolution: "react-dom@npm:18.2.0"
+  dependencies:
+    loose-envify: "npm:^1.1.0"
+    scheduler: "npm:^0.23.0"
+  peerDependencies:
+    react: ^18.2.0
+  checksum: 66dfc5f93e13d0674e78ef41f92ed21dfb80f9c4ac4ac25a4b51046d41d4d2186abc915b897f69d3d0ebbffe6184e7c5876f2af26bfa956f179225d921be713a
+  languageName: node
+  linkType: hard
+
 "react-is@npm:^16.13.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
@@ -5008,6 +5021,15 @@ __metadata:
   version: 1.3.0
   resolution: "sax@npm:1.3.0"
   checksum: 599dbe0ba9d8bd55e92d920239b21d101823a6cedff71e542589303fa0fa8f3ece6cf608baca0c51be846a2e88365fac94a9101a9c341d94b98e30c4deea5bea
+  languageName: node
+  linkType: hard
+
+"scheduler@npm:^0.23.0":
+  version: 0.23.0
+  resolution: "scheduler@npm:0.23.0"
+  dependencies:
+    loose-envify: "npm:^1.1.0"
+  checksum: b777f7ca0115e6d93e126ac490dbd82642d14983b3079f58f35519d992fa46260be7d6e6cede433a92db70306310c6f5f06e144f0e40c484199e09c1f7be53dd
   languageName: node
   linkType: hard
 
