@@ -18,15 +18,19 @@ export default function Welcome() {
                                 Equilibrium Labs
                             </Text>
                         </Title>
-                        
-                        <Autocomplete
+
+                        {/* <Autocomplete
                             size='md'
                             mt={30}
                             placeholder="Search for an Indicator"
                             data={['Golden Line', 'YouTube Subs', 'YouTube Views']}
                             limit={4}
                             
-                        />
+                        /> */}
+
+                        <Text className={classes.description} size='xl' mt={30}>
+                            Free, Open-Source Cryptocurrency Charts
+                        </Text>
 
                     </div>
                 </div>
