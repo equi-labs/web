@@ -1,5 +1,5 @@
 import { Accordion, Box, Container, SimpleGrid, Title } from "@mantine/core";
-import classes from './data.style.module.css';
+import React from "react";
 import Plot from 'react-plotly.js';
 
 export default function Data() {
